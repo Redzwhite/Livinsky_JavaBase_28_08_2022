@@ -7,7 +7,7 @@ public class Main {
         int secondSide = 10;
         int height = 15;
         int volume = oneSide * secondSide * height;
-        int length = volume / (oneSide * secondSide);
+        int length = volume / (secondSide * height);
 
         System.out.println("Об'єм паралелепіпеда = " + volume);
         System.out.println("Довжина паралелепіпеда = " + length);
