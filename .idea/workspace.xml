@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99083c14-748b-449c-bd8d-5db3d3dd2ff3" name="Changes" comment="HomeWork3">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="99083c14-748b-449c-bd8d-5db3d3dd2ff3" name="Changes" comment="Homework3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Livinsky_Java_Base_28_08_2022/com/hillel/livinsky/lessons/lesson3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Livinsky_Java_Base_28_08_2022/com/hillel/livinsky/lessons/lesson3/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/livinsky/lessons/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/livinsky/lessons/lesson3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
