@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99083c14-748b-449c-bd8d-5db3d3dd2ff3" name="Changes" comment="HomeWork3">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Livinsky_Java_Base_28_08_2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Livinsky_Java_Base_28_08_2022/com/hillel/livinsky/lessons/lesson1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Livinsky_Java_Base_28_08_2022/com/hillel/livinsky/lessons/lesson2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/livinsky/lessons/lesson1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/livinsky/lessons/lesson2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livinsky_Java_Base_28_08_2022/com/hillel/livinsky/lessons/lesson3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Livinsky_Java_Base_28_08_2022/com/hillel/livinsky/lessons/lesson3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/livinsky/lessons/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/livinsky/lessons/lesson3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

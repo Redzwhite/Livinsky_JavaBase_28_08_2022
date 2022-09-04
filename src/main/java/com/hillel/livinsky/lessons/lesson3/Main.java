@@ -8,6 +8,6 @@ public class Main {
         int height = 15;
         int volume = oneSide * secondSide * height;
 
-        System.out.println(volume  + " volume");
+        System.out.println("Об'єм паралелепіпеда = " + volume);
     }
 }
