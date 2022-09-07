@@ -25,7 +25,7 @@ public class Main {
 
         double generalAttackMingWarrior = mingWarriorAttack * numberOfMingWarriors;
         double generalAttackMingArchers = mingArcherAttack * numberOfMingArchers;
-        double generalAttackMingRiders = mingArcherAttack * numberOfMingRiders;
+        double generalAttackMingRiders = mingRiderAttack * numberOfMingRiders;
 
         double generalAttackLeeWarrior = leeWarriorAttack * amountIntLeeWarriors;
         double generalAttackLeeArchers = leeArcherAttack * amountIntLeeArchers;
@@ -33,15 +33,19 @@ public class Main {
 
         double totalNumberOfLeeArmies = amountIntLeeWarriors + amountIntLeeArchers + amountIntLeeRiders;
         double totalNumberOfMingArmies = numberOfMingWarriors + numberOfMingArchers + numberOfMingRiders;
+        int mingTotalHumanNumber = (int) totalNumberOfMingArmies;
+        int leeTotalHumanNumber = (int) totalNumberOfLeeArmies;
 
-        double totalAttackValueOfMingArmies = (mingWarriorAttack + mingArcherAttack + mingRiderAttack) * totalNumberOfLeeArmies;
-        double totalAttackValueOfLeeArmies = (leeWarriorAttack + leeArcherAttack + leeRiderAttack) * totalNumberOfMingArmies;
+        double totalAttackValueOfMingArmies = generalAttackMingWarrior + generalAttackMingArchers + generalAttackMingRiders;
+        double totalAttackValueOfLeeArmies = generalAttackLeeWarrior + generalAttackLeeArchers + generalAttackLeeRiders;
 
+        System.out.println("Total number of Ming armies are " + mingTotalHumanNumber + " humans");
         System.out.println("Attack value of Ming warriors " + generalAttackMingWarrior);
         System.out.println("Attack value of Ming archers " + generalAttackMingArchers);
         System.out.println("Attack value of Ming riders " + generalAttackMingRiders);
         System.out.println("Total attack value of Ming armies " + totalAttackValueOfMingArmies);
         System.out.println();
+        System.out.println("Total number of Lee armies are " + leeTotalHumanNumber + " humans");
         System.out.println("Attack value of Lee warriors " + generalAttackLeeWarrior);
         System.out.println("Attack value of Lee archers " + generalAttackLeeArchers);
         System.out.println("Attack value of Lee riders " + generalAttackLeeRiders);
