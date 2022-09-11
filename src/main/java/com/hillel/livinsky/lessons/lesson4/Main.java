@@ -19,9 +19,9 @@ public class Main {
         double numberOfLeeWarriors = numberOfMingWarriors * 1.5;
         double numberOfLeeArchers = numberOfMingArchers * 1.5;
         double numberOfLeeRiders = numberOfMingRiders * 1.5;
-        int amountIntLeeWarriors = (int)numberOfLeeWarriors;
-        int amountIntLeeArchers = (int)numberOfLeeArchers;
-        int amountIntLeeRiders = (int)numberOfLeeRiders;
+        int amountIntLeeWarriors = (int) numberOfLeeWarriors;
+        int amountIntLeeArchers = (int) numberOfLeeArchers;
+        int amountIntLeeRiders = (int) numberOfLeeRiders;
 
         double generalAttackMingWarrior = mingWarriorAttack * numberOfMingWarriors;
         double generalAttackMingArchers = mingArcherAttack * numberOfMingArchers;
