@@ -1,5 +1,4 @@
 package com.hillel.livinsky.lessons.lesson5;
-
 import java.util.Scanner;
 
 public class Main {
@@ -13,14 +12,15 @@ public class Main {
         System.out.println("Enter a team name for the second team");
         String secondNameForTeam = new String();
         secondNameForTeam = scanner.nextLine();
+
         if (firstNameForTeam.equals(secondNameForTeam)) {
             System.out.println("Team name already exists, Restart the program and try again!");
             System.exit(0);
         } else {
             System.out.println("Team name for the second team is: " + secondNameForTeam);
         }
-
         System.out.println("Enter number of frags for player 1 per team " + firstNameForTeam);
+
         int fragsPlayerOneTeamOne = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerOneTeamOne = scanner.nextInt();
@@ -29,6 +29,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 2 per team " + firstNameForTeam);
+
         int fragsPlayerTwoTeamOne = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerTwoTeamOne = scanner.nextInt();
@@ -37,6 +38,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 3 per team " + firstNameForTeam);
+
         int fragsPlayerThreeTeamOne = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerThreeTeamOne = scanner.nextInt();
@@ -45,6 +47,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 4 per team " + firstNameForTeam);
+
         int fragsPlayerFourTeamOne = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerFourTeamOne = scanner.nextInt();
@@ -53,6 +56,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 5 per team " + firstNameForTeam);
+
         int fragsPlayerFiveTeamOne = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerFiveTeamOne = scanner.nextInt();
@@ -61,6 +65,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 1 per team " + secondNameForTeam);
+
         int fragsPlayerOneTeamTwo = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerOneTeamTwo = scanner.nextInt();
@@ -69,6 +74,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 2 per team " + secondNameForTeam);
+
         int fragsPlayerTwoTeamTwo = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerTwoTeamTwo = scanner.nextInt();
@@ -77,6 +83,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 3 per team " + secondNameForTeam);
+
         int fragsPlayerThreeTeamTwo = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerThreeTeamTwo = scanner.nextInt();
@@ -85,6 +92,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 4 per team " + secondNameForTeam);
+
         int fragsPlayerFourTeamTwo = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerFourTeamTwo = scanner.nextInt();
@@ -93,6 +101,7 @@ public class Main {
             System.exit(0);
         }
         System.out.println("Enter number of frags for player 5 per team " + secondNameForTeam);
+
         int fragsPlayerFiveTeamTwo = 0;
         if (scanner.hasNextInt()) {
             fragsPlayerFiveTeamTwo = scanner.nextInt();
@@ -113,13 +122,3 @@ public class Main {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
