@@ -13,24 +13,21 @@ public class Main {
 
         for (int i = 0; i < team1.length; i++) {
             team1[i] = (int) Math.floor(Math.random() * (max - min + 1) + min);
+            team2[i] = (int) Math.floor(Math.random() * (max - min + 1) + min);
         }
 
         for (int t1 : team1) {
             averageTeam1 += t1;
         }
-
-        for (int i = 0; i < team2.length; i++) {
-            team2[i] = (int) Math.floor(Math.random() * (max - min + 1) + min);
-        }
-
         for (int t2 : team2) {
             averageTeam2 += t2;
         }
         System.out.println(Arrays.toString(team1));
         System.out.println(Arrays.toString(team2));
-        System.out.println("average age of players team1 : " + averageTeam1 / team1.length);
-        System.out.println("average age of players team2 : " + averageTeam2 / team2.length);
+        System.out.println("average age of players team1 : " + (double)averageTeam1 / team1.length);
+        System.out.println("average age of players team2 : " + (double)averageTeam2 / team2.length);
     }
 }
+
 
 
