@@ -1,6 +1,5 @@
 package com.hillel.livinsky.lessons.lesson8;
 
-import java.util.Arrays;
 import java.util.*;
 
 public class Main {
@@ -15,9 +14,11 @@ public class Main {
             first[i] = (int) Math.floor(Math.random() * (max - min + 1) + min);
             second[i] = (int) Math.floor(Math.random() * (max - min + 1) + min);
         }
+
+        Arrays.sort(first);
+        Arrays.sort(second);
+
         for (int i = 0; i < first.length; i++) {
-            Arrays.sort(first);
-            Arrays.sort(second);
             if (first[i] == second[i]) {
                 res.add(String.valueOf(i));
             }
