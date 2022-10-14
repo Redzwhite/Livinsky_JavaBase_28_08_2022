@@ -9,6 +9,17 @@ import com.hillel.livinsky.lessons.lesson13extra.participant.Participant;
 import com.hillel.livinsky.lessons.lesson13extra.participant.Robot;
 
 public class Main {
+    public static void start(Participant[] participants, Obstacle[] obstacles) {
+        for (Participant par : participants) {
+            for (Obstacle obs : obstacles) {
+                boolean pass = obs.overcome(par);
+                if (!pass) {
+                    break;
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Participant[] participants = {
                 new Human("Bob", 1.0, 30.0),
@@ -22,15 +33,6 @@ public class Main {
                 new Wall("Wall2", 1.5),
                 new RunningTrack("RunningTrack2", 2000.0)
         };
-        for (Participant par : participants) {
-            boolean pass = true;
-            if (!pass) {
-                continue;
-            } else {
-                for (Obstacle obs : obstacles) {
-                    pass = obs.overcome(par);
-                }
-            }
-        }
+        start(participants, obstacles);
     }
 }
